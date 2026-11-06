@@ -1,0 +1,179 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0b2d82; /* Azul principal */
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Container do Celular / App */
+.page-container {
+    width: 360px;
+    min-height: 700px;
+    background-color: #0b2d82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/* Menu de Navegação Superior */
+header {
+    width: 100%;
+    background-color: #f5b642; /* Amarelo */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+.meme {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #0d2e84
+
+}
+
+/* Logo UNIP */
+.logo-container {
+    margin: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-container h1 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    color: #f5b642;
+    letter-spacing: 2px;
+}
+
+.logo-container p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* Caixa Amarela Principal de Conteúdo */
+.content-card {
+    width: 90%;
+    background-color: #f5b642;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.content-card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.content-card p {
+    margin-bottom: 12px;
+}
+
+/* Brasões / Ilustrações Superiores */
+.symbol-img {
+    width: 200px;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+.Logo-img {
+    width: 200px;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+
+/* Grid de Galeria de Fotos */
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.photo-grid img, .single-photo img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.single-photo {
+    margin-top: 15px;
+    gap: 10px, 40px, 40px, 40px;
+}
+
+/* Botão "Sobre Nós" */
+.btn-sobre {
+    background-color: #f5b642;
+    color: #000;
+    border: none;
+    padding: 12px 0;
+    width: 90%;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-sobre:hover {
+    background-color: #e0a334;
+}
+
+/* Estilos específicos da Tela Sobre 1 */
+.team-list {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+/* Estilos específicos da Tela Sobre 2 (Meme / Seção Escura) */
+.dark-section {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dark-section img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
